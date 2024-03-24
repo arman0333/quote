@@ -1,0 +1,15 @@
+blockquote::before{
+    content: '“';
+}
+blockquote::after {
+    content: '”';
+}
+#a1::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background:black;
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}

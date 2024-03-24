@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gita-teachings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./remaining.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="bg-cover bg-center bg-no-repeat flex items-center justify-center" style="background-image: url('/public/img/og.jpg'); background-size: cover; height: 100vh;">
+    <audio id="bg-music" autoplay loop>
+        <source src="/public/audio/mixkit-piano-reflections-22.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div  class="mb-[20%] bg-transparent min-w-[60%] p-3 min-h-[20%] max-h-[30%] ma rounded-md border-4 border-white text-center items-center "> 
+        <h1 class="font-bonheur-royale text-5xl font-medium mb-7" > <span class="border-b-2 border-black">Lesson of the</span> day!!!</h1>
+        <blockquote id="quote" class="text-3xl">Loading...</blockquote>
+        <span id="author" class="block mt-[11%] float-right relative font-dongle text-4xl ">Loading...</span>
+        <div class="mt-[10%] flex items-center text-center justify-center ">
+            <button id="refresh" class=" p-1 rounded-md border-2 border-white hover:bg-[rgb(212,180,153)] hover:text-white mx-2">New Lesson</button>
+            <button id="tweetButton" class=" p-1 flex rounded-md border-2 border-white hover:bg-[rgb(212,180,153)] hover:text-white "> <img src="/public/img/twitter.svg" alt="gif" class="h-auto w-6">Tweet</button>
+        </div>
+    </div>
+</body>
+</html>
